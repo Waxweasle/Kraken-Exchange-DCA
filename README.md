@@ -10,6 +10,7 @@ A Python program to assist in "Dollar Cost Averaging" cryptocurrency purchases o
 3. Select desired permissions for your API (approve **Querey Funds** and **Create & Modify Orders** minimum).
 4. Copy personal API KEY and API SECRET into 
 > api_key= 
+> 
 > secret=
 
 ## Usage
