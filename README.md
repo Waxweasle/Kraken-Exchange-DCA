@@ -8,7 +8,7 @@ A Python program to assist in "Dollar Cost Averaging" cryptocurrency purchases o
 1. Create an account at https://www.kraken.com/en-gb/sign-up
 2. Go to Account>Security>API>Add Key
 3. Select desired permissions for your API (approve **Querey Funds** and **Create & Modify Orders** minimum).
-4. Copy personal API KEY and API SECRET into 
+4. Copy personal API KEY and API SECRET into: 
 > api_key= 
 > 
 > secret=
@@ -20,3 +20,8 @@ The program can be used to:
 3. Create a buy order for a given amount (**provided the account is funded**). If set to run passively, this automates the Dollar Cost Average buying strategy
 4. Pull any number of past transactions from the users account. Data is then cleaned and saved to an excel file - useful for tax purposes/ general book keeping.
 
+## Saving txn history
+Cleaning and saving of past transactions is completed via the trade_history function.
+"Offset" is a value used by the API for pagination, starting from a default of 0 and increasing by 50.
+The first time that the function is run, all previous transactions will be saved.
+To avoid future repliction or to only select the previous "x" transactions, use df.head(x) to retreive the x most recent transactions to be saved.
