@@ -32,7 +32,11 @@ The program can be used to:
 
 ## Saving txn history
 Cleaning and saving of past transactions is completed via the trade_history function.
-"Offset" is a value used by the API for pagination, starting from a default of 0 and increasing by 50.
+
+"Offset" is a value used by the API for pagination, starting from a default of 0 and increasing by 50 each iteration.
+
 The Pandas library is used to convert the Kraken response into a dataframe and then save it to excel.
+
 The first time that the function is run, all previous transactions will be saved.
+
 To avoid future repliction or to only select the previous "x" transactions, use df.head(x) to retreive the x most recent transactions to be saved.
