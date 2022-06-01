@@ -1,9 +1,9 @@
 # Kraken-Exchange-DCA
 A Python program to primarily assist in "Dollar Cost Averaging" cryptocurrency purchases on the Kraken cryptocurrency exchange via interacting with the Kraken API.
 Can also be used to set up individual buy/ sell orders at users discretion. 
-Previous transactions can be pulled and are saved into a local Excel sheet for accessibility/ readability.
+Previous transactions can be pulled and are saved into a local Excel sheet via Pandas for accessibility/ readability.
 ## Prerequisites
-1. Python
+1. Python 3.0+
 2. Kraken exchange personal API key and Secret key
 
 ## Kraken API set up
@@ -13,7 +13,7 @@ Previous transactions can be pulled and are saved into a local Excel sheet for a
 4. Copy personal API KEY and API SECRET into: 
 > api_key = 
 > 
-> secret =
+> api_sec =
 
 ## Usages
 The program can be used to:
