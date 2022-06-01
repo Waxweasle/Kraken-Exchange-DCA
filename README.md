@@ -44,6 +44,12 @@ The first time that the function is run, all previous transactions will be saved
 
 To avoid future replication or to only select the previous "x" transactions, use df.head(x) to retreive the x most recent transactions to be saved.
 
+### Basic walkthrough example
+> check_balance()
+> dca_volume() (if desired)
+> dca()
+> trade_history()
+
 ## Future improvements
 1. Implementing functionality for adding / withdrawing funds from the account.
 2. Adding profit/loss metrics for addition to the Trade History excel flie to assist with tax calculations. 
