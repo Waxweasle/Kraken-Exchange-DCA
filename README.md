@@ -28,7 +28,9 @@ The program can be used to:
 2. Enter your currency pair as a string in 
 > pair = 
 3. If necessary, use  the dca_volume() function to retrieve the volume to be purchased with your current order amount.
-4. Use the currency pair and volume 
+4. Use the dca() function to create an order. Change order_data parameters to suit your needs (see https://docs.kraken.com/rest/#operation/addOrder  for breakdown).
+5. The "validate" key within order_data determines if the order is submitted ( True for simple validation, False for commiting and sending a live order).
+6. Use a service such as Python Anywhere (https://www.pythonanywhere.com/) to automate your process and set up regular, reoccuring transactions (**requires account to be funded**).
 
 ## Saving txn history
 Cleaning and saving of past transactions is completed via the trade_history function.
@@ -40,3 +42,7 @@ The Pandas library is used to convert the Kraken response into a dataframe and t
 The first time that the function is run, all previous transactions will be saved.
 
 To avoid future repliction or to only select the previous "x" transactions, use df.head(x) to retreive the x most recent transactions to be saved.
+
+## Future improvements
+1. Implementing functionality for adding / withdrawing funds from the account.
+2. Adding profit/loss metrics for addition to the Trade History excel flie to assist with tax calculations. 
