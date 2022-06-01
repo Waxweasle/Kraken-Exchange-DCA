@@ -32,7 +32,7 @@ The program can be used to:
 5. The "validate" key within order_data determines if the order is submitted ( True for simple validation, False for commiting and sending a live order).
 6. Use a service such as Python Anywhere (https://www.pythonanywhere.com/) to automate your process and set up regular, reoccuring transactions (**requires account to be funded**).
 
-## Saving txn history
+## Saving transaction/ trade history
 Cleaning and saving of past transactions is completed via the trade_history function.
 
 "Offset" is a value used by the API for pagination, starting from a default of 0 and increasing by 50 each iteration.
