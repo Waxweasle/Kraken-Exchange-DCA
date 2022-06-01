@@ -76,9 +76,8 @@ def cancel(txn_id, api_key, api_sec):
     print(response.json())
 
 
-# GET TRADE HISTORY + APPEND TO SHEET
+# GET TRADE HISTORY, CLEAN DATA , SAVE TO EXCEL
 def trade_history():
-    # CYCLES THROUGH ORDER HISTORY 50 PER REQUEST
     offset = 0
     while True:
         try:
