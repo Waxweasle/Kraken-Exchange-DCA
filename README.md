@@ -46,9 +46,14 @@ To avoid future replication or to only select the previous "x" transactions, use
 
 ### Basic walkthrough example
 > check_balance()
+> 
 > dca_volume() (if desired)
+> 
 > dca()
+> 
 > trade_history()
+
+
 A successful varified by order response will look something like:
 '''
 Current price is: £25055.3
