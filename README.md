@@ -14,6 +14,7 @@ Previous transactions can be pulled and are saved into a local Excel sheet via P
 > api_key = 
 > 
 > api_sec =
+5. Default currency is GBP/£ 
 
 ## Usages
 The program can be used to:
@@ -23,7 +24,7 @@ The program can be used to:
 4. Pull any number of past transactions from the users account. Data is then cleaned and saved to an excel file - useful for tax purposes/ general book keeping.
 
 ## How to
-1. Enter your order amount as an integer in
+1. Enter your order amount as a floating point number in
 > dca_amount = 
 2. Enter your currency pair as a string in 
 > pair = 
