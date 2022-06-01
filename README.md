@@ -56,11 +56,10 @@ To avoid future replication or to only select the previous "x" transactions, use
 
 A successful varified by order response will look something like:
 
-'''
-Current price is: £25055.3
-Amount purchased at current price is: 0.03991171528578784
-{'error': [], 'result': {'descr': {'order': 'buy 0.03991171 XBTGBP @ market'}, 'txid': ['123456-ABCDE-123456']}}
-'''
+  Current price is: £25055.3
+  Amount purchased at current price is: 0.03991171528578784
+  {'error': [], 'result': {'descr': {'order': 'buy 0.03991171 XBTGBP @ market'}, 'txid': ['123456-ABCDE-123456']}}
+
 
 ## Future improvements
 1. Implementing functionality for adding / withdrawing funds from the account.
