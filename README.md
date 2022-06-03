@@ -54,7 +54,7 @@ To avoid future replication or to only select the previous "x" transactions, use
 > trade_history()
 
 
-A successful varified by order response will look something like:
+A successful **varified** buy order response will look something like:
 
     Current price is: £25055.3
     Amount purchased at current price is: 0.03991171528578784
