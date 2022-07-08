@@ -1,4 +1,4 @@
-# Kraken-Exchange-DCA
+# Kraken-Exchange-Purchasing-Bot
 A Python program to primarily assist in "Dollar Cost Averaging" cryptocurrency purchases on the Kraken cryptocurrency exchange via interacting with the Kraken API.
 Can also be used to set up individual buy/ sell orders at users discretion. 
 Previous transactions can be called and are saved into a local Excel sheet via Pandas for accessibility/ readability.
